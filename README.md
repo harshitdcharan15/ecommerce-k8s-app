@@ -1,7 +1,6 @@
 # 🛒 Cloud-Native E-Commerce Application  
 ### Built with Node.js, Docker & Kubernetes (Kind)
 
----
 
 ## 📌 Project Overview
 
@@ -11,7 +10,6 @@ The application is built using **Node.js**, containerized with **Docker**, and d
 
 Unlike traditional applications, this project intentionally avoids SQL or NoSQL databases. Instead, it uses file-based JSON storage to focus purely on microservices communication, containerization, and Kubernetes architecture.
 
----
 
 ## 🏗 Architecture
 
@@ -22,7 +20,6 @@ Frontend Service  →  Backend API  →  products.json (File Storage)
 - Each component runs inside its own Docker container.
 - Kubernetes manages deployments, scaling, networking, and service discovery.
 
----
 
 ## 🚀 Tech Stack
 
@@ -32,7 +29,6 @@ Frontend Service  →  Backend API  →  products.json (File Storage)
 - Kubernetes (Kind)
 - File-based JSON Storage
 
----
 
 ## 📂 Project Structure
 
