@@ -35,3 +35,22 @@ Frontend Service  →  Backend API  →  products.json (File Storage)
 ---
 
 ## 📂 Project Structure
+
+ecommerce-k8s-app/
+│
+├── backend/
+│ ├── server.js
+│ ├── products.json
+│ ├── package.json
+│ └── Dockerfile
+│
+├── frontend/
+│ ├── server.js
+│ ├── package.json
+│ └── Dockerfile
+│
+└── k8s/
+├── backend-deployment.yaml
+├── backend-service.yaml
+├── frontend-deployment.yaml
+└── frontend-service.yaml
